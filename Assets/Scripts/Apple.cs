@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Apple : MonoBehaviour {
     [Header("Set In Inspector")]
-    public static float bottomY = -20f;
+    public static float bottomY = -50f;
 
 	// Use this for initialization
 	void Start () {
