@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33524490975669018}
   - component: {fileID: 23957276277605644}
   - component: {fileID: 135932833099302676}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4430663584326912}
   - component: {fileID: 54927275547522014}
-  m_Layer: 0
+  - component: {fileID: 114292506032050018}
+  m_Layer: 9
   m_Name: Apple
   m_TagString: Apple
   m_Icon: {fileID: 0}
@@ -56,7 +57,7 @@ GameObject:
   - component: {fileID: 33055980232479044}
   - component: {fileID: 23299180149789342}
   - component: {fileID: 135430259285269110}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Leaf2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +75,7 @@ GameObject:
   - component: {fileID: 33368947448116492}
   - component: {fileID: 23710770037038382}
   - component: {fileID: 136698014338931940}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Leaf1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +94,7 @@ GameObject:
   - component: {fileID: 23452822531905862}
   - component: {fileID: 135234814531337230}
   - component: {fileID: 54211446727587978}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fruit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -367,6 +368,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114292506032050018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1180612090368802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c22642b306f32b43bae22ccfa67d384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135234814531337230
 SphereCollider:
   m_ObjectHideFlags: 1

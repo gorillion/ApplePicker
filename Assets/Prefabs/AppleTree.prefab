@@ -39,6 +39,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4123029779565260}
   - component: {fileID: 54945414333894032}
+  - component: {fileID: 114741340132307356}
+  - component: {fileID: 114286390381879974}
+  - component: {fileID: 114484952848611060}
   m_Layer: 0
   m_Name: AppleTree
   m_TagString: Untagged
@@ -204,6 +207,38 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114286390381879974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388762540688710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e2281aee72118c4cbccdd43075697df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 0}
+  speed: 1
+  leftAndRightEdge: 10
+  chanceToChangeDirections: 0.1
+  secondBetweenAppleDrops: 1
+--- !u!114 &114484952848611060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388762540688710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e2281aee72118c4cbccdd43075697df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 0}
+  speed: 1
+  leftAndRightEdge: 10
+  chanceToChangeDirections: 0.1
+  secondBetweenAppleDrops: 1
 --- !u!114 &114522632870195628
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -215,6 +250,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e2281aee72118c4cbccdd43075697df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  applePrefab: {fileID: 0}
+  speed: 1
+  leftAndRightEdge: 10
+  chanceToChangeDirections: 0.1
+  secondBetweenAppleDrops: 1
+--- !u!114 &114741340132307356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388762540688710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e2281aee72118c4cbccdd43075697df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applePrefab: {fileID: 0}
+  speed: 1
+  leftAndRightEdge: 10
+  chanceToChangeDirections: 0.1
+  secondBetweenAppleDrops: 1
 --- !u!135 &135207242239343392
 SphereCollider:
   m_ObjectHideFlags: 1
